@@ -1,0 +1,14 @@
+{
+  "name": "ocm-ambag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwindcss/input.css -o ./dist/css/output.css --watch"
+  },
+  "author": "Ivan Hanma",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
